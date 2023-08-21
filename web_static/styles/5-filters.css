@@ -1,0 +1,57 @@
+.filters {
+    display: flex;
+    align-items: stretch;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.locations,
+.amenities {
+    width: 25%;
+    height: 100%;
+    padding: 0;
+    margin: 0; /* Reset margin */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.locations {
+    border-right: 1px solid #DDDDDD;
+    padding-right: 10px; /* Add padding to separate text from line */
+}
+
+.locations h3,
+.amenities h3 {
+    font-weight: 600;
+    margin: 0;
+    padding: 0; /* Reset padding */
+}
+
+.locations h4,
+.amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    padding: 0; /* Reset padding */
+}
+
+.search-button {
+    background-color: #FF5A5F;
+    color: white;
+    font-size: 18px;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    opacity: 1;
+    transition: opacity 0.3s;
+    align-self: center;
+}
+
+.search-button:hover {
+    opacity: 0.9;
+}
